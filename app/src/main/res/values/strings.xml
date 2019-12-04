@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BiT Task</string>
+
+    <string name="logo_image_contentDescription">Logo image</string>
+
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+    <string name="connection_err">Error while trying to connect to the server.</string>
+    <string name="NoInternetConnection">No Internet Connection.</string>
+    <string name="unkown_error">Unkown error.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="error_try_again">Error while loading. Please try again.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">The Abacus Hook</string>
+    <string name="location">Kuwait</string>
+    <string name="bio">A food diary is a log of what you consume each day. It can help you make changes to your diet and lose weight. You can use it to improve your health by tracking what you eat and drink.</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="posts">Posts</string>
+</resources>
