@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black">
@@ -10,5 +11,17 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:adjustViewBounds="true" />
+
+    <com.github.loadingview.LoadingView
+        android:id="@+id/loadingview"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_centerInParent="true"
+        app:lv_duration="30"
+        app:lv_end_color="@color/colorAccent"
+        app:lv_external_radius="15dp"
+        app:lv_internal_radius="4dp"
+        app:lv_start_color="@color/colorPrimaryDark" />
+
 
 </RelativeLayout>
